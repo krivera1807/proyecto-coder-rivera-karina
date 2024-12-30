@@ -126,3 +126,48 @@ h1, h2{
 }
 
 /*responsive-hasta 350px*/
+
+.navbar-toggler {
+  margin-left: auto; 
+}
+
+.collapse .navbar-nav {
+  text-align: right; /* Alinear las opciones del menú a la derecha */
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #fff; 
+      z-index: 1050;
+      width: 100%; 
+      padding: 1rem;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
+
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  body {
+      font-size: 10px;  /* Fuente aún más pequeña */
+  }
+
+  .navbar {
+      padding: 10px;  /* Reducir aún más el espacio en el navbar */
+  }
+
+  .navbar-toggler {
+      font-size: 18px;  /* Aumentar el tamaño del botón hamburguesa */
+  }
+}
