@@ -18,6 +18,11 @@ header img {
   max-width: 30%;
 }
 
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /*Footer*/
 footer{
     background-color:black;
@@ -158,23 +163,17 @@ h1, h2{
   }
 }
 
-
-.nav-link.active {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 @media (max-width: 480px) {
   body {
-      font-size: 10px;  /* Fuente aún más pequeña */
+      font-size: 10px; 
   }
 
   .navbar {
-      padding: 10px;  /* Reducir aún más el espacio en el navbar */
+      padding: 10px;  
   }
 
   .navbar-toggler {
-      font-size: 18px;  /* Aumentar el tamaño del botón hamburguesa */
+      font-size: 18px; 
   }
 
 }
