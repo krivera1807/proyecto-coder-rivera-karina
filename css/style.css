@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Body*/
+
+html, body {
+  font-family: 'Quicksand', sans-serif !important;
+}
 
 /*Main*/
 
